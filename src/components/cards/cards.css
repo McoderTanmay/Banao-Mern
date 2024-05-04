@@ -1,0 +1,22 @@
+.card-text{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    background-color: transparent !important;
+    border: none !important;
+}
+.botton-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.viewAndShare{
+    display: flex;
+}
+@media(max-width:960px){
+    .infoCard{
+        width: 100% !important;
+    }
+}

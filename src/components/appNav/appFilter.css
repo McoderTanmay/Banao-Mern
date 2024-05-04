@@ -1,0 +1,7 @@
+.navFilter{
+    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
+    align-items: center;
+    justify-content: space-between;
+}

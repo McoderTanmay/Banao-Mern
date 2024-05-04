@@ -1,0 +1,92 @@
+.signup{
+    position: fixed;
+    display: flex;
+    color: white;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inptEmail, .password, .cnfPassword{
+    width: 400px !important;
+}
+.fname, .lname{
+    width: 200px;
+}
+.sbt-btn{
+    width: 400px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius:20px;
+    color: white;
+
+}
+.cover{
+    background: #FFFFFF;
+    padding: 2rem 2rem 2rem 2rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 16px;
+    color: black;
+}
+.withGoogle{
+    width: 400px;
+    border: solid 2px #D9D9DB;
+}
+.signin{
+    text-decoration: none;
+}
+.full{
+    display: flex;
+    
+}
+.termsCond{
+    font-size: 12px;
+}
+.cancel-btn{
+   position: relative;
+   bottom: 81px;
+   left: 750px;
+   background: transparent;
+   border: none;
+   z-index: 0;
+}
+@media(max-width:900px){
+    .secondHalf{
+        display: none;
+    }
+    .signup{
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .cancel-btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .cover{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .already{
+        flex-direction: column;
+    }
+    .fname, .lname{
+        width: 50%;
+    }
+    .inptEmail, .password, .cnfPassword{
+        width: 100% !important;
+    }
+    .full{
+        width: 100%;
+        justify-content: center;
+    }
+}

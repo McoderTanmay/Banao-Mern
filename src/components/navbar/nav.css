@@ -1,0 +1,43 @@
+.search_cover{
+    width:70%;
+}
+.free{
+    color: rgb(59, 59, 249);
+}
+.signUp{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.search_input{
+    width: 370px;
+    background: #DEE2E6;
+}
+.custom-nav{
+    height: 80px;
+    background: #ffffff;
+}
+@media(max-width:986px){
+    .nav-content{
+        background: white !important;
+    }
+    .nav-logo{
+        margin-left: 0 !important;
+        margin-bottom: 1em;
+        
+    }
+    .search_cover{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .logocover{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .signupCover{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
